@@ -17,25 +17,13 @@
         margin: 20px auto;
         border: 3px solid white;
       }
-      #scaryImage {
-        display: none;
-        margin-top: 20px;
-        width: 50%;
-        border: 3px solid white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
+     
     </style>
   </head>
   <body>
     <h1>Maze Game</h1>
     <p>Use Arrow Keys to Move</p>
     <canvas id="gameCanvas" width="640" height="640"></canvas>
-
-    <img id="scaryImage" src="Scaryass.jpg" alt="Scary Image">
-
     <script>
       var canvas = document.getElementById("gameCanvas");
       var ctx = canvas.getContext("2d");
@@ -127,4 +115,5 @@
     </script>
   </body>
 </html>
+
 
